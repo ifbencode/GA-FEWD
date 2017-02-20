@@ -48,8 +48,9 @@ table {
 }
 
 body {
-    background-image: url("file:///Users/Ben/Projects/GA-FEWD/About%20Me/light_honeycomb/light_honeycomb_@2X.png");
-    background-color: white;
+    background-image: url("file:///Users/Ben/Projects/GA-FEWD/About%20Me/Flatiron.jpg");
+    background-color: black;
+		background-size: cover;
 }
 
 
@@ -77,7 +78,7 @@ header {
 .top_links {
   text-align: right;
   font-family: 'Roboto Mono:400', monospace;
-  position: fixed;
+  position: absolute;
   right: 10px;
   top: 70px;
 }
@@ -117,22 +118,17 @@ a:hover {
   padding: 30px 10px 30px 30px;
 }
 
-.faves {
-  border: 800px;
-  margin: auto;
+.enter_button {
+	background-color: #c33926;
+	width: 100px;
+	height: 30px;
   text-align: center;
+  font-family: 'Roboto Mono:400', monospace;
+  position: absolute;
+	bottom: 20px;
+	left: 50%;
 }
 
-table {
-  margin: auto;
-}
-
-td {
-  font-family: 'Carrois Gothic SC', sans-serif;
-  padding: 50px;
-}
-
-footer {
-  margin: 20px;
-  text-align: center;
+.enter_text {
+	margin: 6px;
 }
