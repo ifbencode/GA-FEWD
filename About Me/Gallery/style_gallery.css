@@ -99,15 +99,17 @@ a:hover {
 }
 
 #container {
-  width: 600px;
+  width: 800px;
   height: 600px;
   position: relative;
-  margin: 50px auto;
+  margin: 80px auto;
+  background: #FFFFFF;
+  border: 40px solid #FFFFFF;
 }
 
 #box_one {
   background-color: #BDA630;
-  border: 1px solid red;
+  border: 2px solid #FFFFFF;
   width: 200px;
   height: 200px;
   position: absolute;
@@ -115,13 +117,9 @@ a:hover {
   top: 0px;
 }
 
-#box_one:hover {
-  background-color: #c33926;
-}
-
 #box_two {
   background-color: #BDA630;
-  border: 1px solid red;
+  border: 2px solid #FFFFFF;
   width: 200px;
   height: 200px;
   position: absolute;;
@@ -131,7 +129,7 @@ a:hover {
 
 #box_three {
   background-color: #BDA630;
-  border: 1px solid red;
+  border: 2px solid #FFFFFF;
   width: 200px;
   height: 200px;
   position: absolute;;
@@ -141,27 +139,37 @@ a:hover {
 
 #box_four {
   background-color: #BDA630;
-  border: 1px solid red;
+  border: 2px solid #FFFFFF;
   width: 200px;
   height: 200px;
   position: absolute;;
-  left: 0px;
-  top: 200px;
+  left: 600px;
+  top: px;
 }
 
 #box_five {
   background-color: #BDA630;
-  border: 1px solid red;
+  border: 2px solid #FFFFFF;
   width: 200px;
   height: 200px;
   position: absolute;;
-  left: 200px;
+  left: 0px;
   top: 200px;
 }
 
 #box_six {
   background-color: #BDA630;
-  border: 1px solid red;
+  border: 2px solid #FFFFFF;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 200px;
+  top: 200px;
+}
+
+#box_seven {
+  background-color: #BDA630;
+  border: 2px solid #FFFFFF;
   width: 200px;
   height: 200px;
   position: absolute;
@@ -169,35 +177,115 @@ a:hover {
   top: 200px;
 }
 
-#box_seven {
-  background-color: #BDA630;
-  border: 1px solid red;
-  width: 200px;
-  height: 200px;
-  position: absolute;;
-  left: 0px;
-  top: 400px;
-}
-
 #box_eight {
   background-color: #BDA630;
-  border: 1px solid red;
+  border: 2px solid #FFFFFF;
   width: 200px;
   height: 200px;
   position: absolute;;
-  left: 200px;
-  top: 400px;
+  left: 600px;
+  top: 200px;
 }
 
 #box_nine {
   background-color: #BDA630;
-  border: 1px solid red;
+  border: 2px solid #FFFFFF;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 0px;
+  top: 400px;
+}
+
+#box_ten {
+  background-color: #BDA630;
+  border: 2px solid #FFFFFF;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 200px;
+  top: 400px;
+}
+
+#box_eleven {
+  background-color: #BDA630;
+  border: 2px solid #FFFFFF;
   width: 200px;
   height: 200px;
   position: absolute;
   left: 400px;
   top: 400px;
 }
+
+#box_twelve {
+  background-color: #BDA630;
+  border: 2px solid #FFFFFF;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 600px;
+  top: 400px;
+}
+
+.box_opaque:hover {
+  background-color: #FFFFFF;
+  opacity: .5;
+}
+
+/*#box_two:hover {
+  background-color: #FFFFFF;
+  opacity: .9;
+}
+
+#box_three:hover {
+  background-color: #FFFFFF;
+  opacity: .9;
+}
+
+#box_four:hover {
+  background-color: #FFFFFF;
+  opacity: .9;
+}
+
+#box_five:hover {
+  background-color: #FFFFFF;
+  opacity: .9;
+}
+
+#box_six:hover {
+  background-color: #FFFFFF;
+  opacity: .9;
+}
+
+#box_seven:hover {
+  background-color: #FFFFFF;
+  opacity: .9;
+}
+
+#box_eight:hover {
+  background-color: #FFFFFF;
+  opacity: .9;
+}
+
+#box_nine:hover {
+  background-color: #FFFFFF;
+  opacity: .9;
+}
+
+#box_ten:hover {
+  background-color: #FFFFFF;
+  opacity: .9;
+}
+
+#box_eleven:hover {
+  background-color: #FFFFFF;
+  opacity: .9;
+}
+
+#box_twelve:hover {
+  background-color: #FFFFFF;
+  opacity: .9;
+}*/
 
 #welcome_title {
   text-align: center;

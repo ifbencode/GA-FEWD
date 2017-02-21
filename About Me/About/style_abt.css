@@ -48,8 +48,9 @@ table {
 }
 
 body {
-    background-image: url("file:///Users/Ben/Projects/GA-FEWD/About%20Me/light_honeycomb/light_honeycomb_@2X.png");
-    background-color: white;
+    background-image: url("file:///Users/Ben/Projects/GA-FEWD/About%20Me/Flatiron_fade.jpg");
+    background-color: black;
+		background-size: cover;
 }
 
 
@@ -99,138 +100,28 @@ a:hover {
 }
 
 #container {
-  width: 600px;
+	background: #FFFFFF;
+  width: 1080px;
   height: 600px;
   position: relative;
-  margin: 50px auto;
+  margin: 70px auto;
+	border-radius: 1%;
+	border: 1px solid #FFFFFF;
+	opacity: .8;
 }
 
-#box_one {
-  background-color: #BDA630;
-  border: 1px solid red;
-  width: 200px;
-  height: 200px;
-  position: absolute;;
-  left: 0px;
-  top: 0px;
+#abt_text {
+	font-family: 'Roboto Mono:400', monospace;
+	color: #000000;
+	line-height: 110%;
+  width: 1030px;
+	display: block;
+	margin: 20px auto;
+  /*position: absolute;
+  left: 50px;
+  top: 40px;*/
 }
 
-#box_one:hover {
-  background-color: #c33926;
-}
-
-#box_two {
-  background-color: #BDA630;
-  border: 1px solid red;
-  width: 200px;
-  height: 200px;
-  position: absolute;;
-  left: 200px;
-  top: 0px;
-}
-
-#box_three {
-  background-color: #BDA630;
-  border: 1px solid red;
-  width: 200px;
-  height: 200px;
-  position: absolute;;
-  left: 400px;
-  top: 0px;
-}
-
-#box_four {
-  background-color: #BDA630;
-  border: 1px solid red;
-  width: 200px;
-  height: 200px;
-  position: absolute;;
-  left: 0px;
-  top: 200px;
-}
-
-#box_five {
-  background-color: #BDA630;
-  border: 1px solid red;
-  width: 200px;
-  height: 200px;
-  position: absolute;;
-  left: 200px;
-  top: 200px;
-}
-
-#box_six {
-  background-color: #BDA630;
-  border: 1px solid red;
-  width: 200px;
-  height: 200px;
-  position: absolute;
-  left: 400px;
-  top: 200px;
-}
-
-#box_seven {
-  background-color: #BDA630;
-  border: 1px solid red;
-  width: 200px;
-  height: 200px;
-  position: absolute;;
-  left: 0px;
-  top: 400px;
-}
-
-#box_eight {
-  background-color: #BDA630;
-  border: 1px solid red;
-  width: 200px;
-  height: 200px;
-  position: absolute;;
-  left: 200px;
-  top: 400px;
-}
-
-#box_nine {
-  background-color: #BDA630;
-  border: 1px solid red;
-  width: 200px;
-  height: 200px;
-  position: absolute;
-  left: 400px;
-  top: 400px;
-}
-
-#welcome_title {
-  text-align: center;
-  color: #C33926;
-  font-family: 'Roboto Mono:700', monospace;
-  font-size: 3em;
-  padding: 30px 30px 0px 30px;
-}
-
-#about_blurb {
-  text-align: left;
-  color: white;
-  font-family: 'Roboto Mono:700', monospace;
-  line-height: 125%;
-  padding: 10px 10px 10px 10px;
-}
-
-.faves {
-  border: 800px;
-  margin: auto;
-  text-align: center;
-}
-
-table {
-  margin: auto;
-}
-
-td {
-  font-family: 'Carrois Gothic SC', sans-serif;
-  padding: 50px;
-}
-
-footer {
-  margin: 20px;
-  text-align: center;
+/*img {
+	margin: 40px auto;
 }

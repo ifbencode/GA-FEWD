@@ -1,0 +1,145 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    background-image: url("file:///Users/Ben/Projects/GA-FEWD/About%20Me/light_honeycomb/light_honeycomb_@2X.png");
+    background-color: white;
+}
+
+
+header {
+  height: 100px;
+  background: #4A5457;
+}
+
+.bl_logo {
+  width: 300px;
+  display: inline-block;
+  margin: 15px 5px;
+}
+
+.links {
+  padding: 20px;
+  color: #BDA630;
+}
+
+.links:hover {
+  color: white;
+  font-weight: bold;
+}
+
+.top_links {
+  text-align: right;
+  font-family: 'Roboto Mono:400', monospace;
+  position: absolute;
+  right: 10px;
+  top: 70px;
+}
+
+#static_link {
+  color: white;
+  padding: 20px;
+  opacity: .6;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #4A5457;
+}
+
+a:hover {
+  color: #C33926;
+}
+
+#container {
+  width: 1220px;
+  height: 715px;
+  position: relative;
+  margin: 80px auto;
+  background: #FFFFFF;
+  border: 20px solid #FFFFFF;
+}
+
+#vid_1 {
+  background-color: #BDA630;
+  border: 2px solid #FFFFFF;
+  position: absolute;
+  left: 25px;
+  top: 25px;
+}
+
+#vid_2 {
+  background-color: #BDA630;
+  border: 2px solid #FFFFFF;
+  position: absolute;;
+  right: 25px;
+  top: 25px;
+}
+
+#vid_3 {
+  background-color: #BDA630;
+  border: 2px solid #FFFFFF;
+  position: absolute;;
+  left: 25px;
+  bottom: 25px;
+}
+
+#vid_4 {
+  background-color: #BDA630;
+  border: 2px solid #FFFFFF;
+  position: absolute;;
+  right: 25px;
+  bottom: 25px;
+}
+
+.vid:hover {
+  background-color: #000000;
+  opacity: .7;
+}

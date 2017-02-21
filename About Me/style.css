@@ -71,7 +71,6 @@ header {
 }
 
 .links:hover {
-  color: white;
   font-weight: bold;
 }
 
@@ -86,11 +85,10 @@ header {
 a {
   font-weight: bold;
   text-decoration: none;
-  color: #4A5457;
 }
 
 a:hover {
-  color: #C33926;
+  color: white;
 }
 
 .box {
@@ -102,33 +100,26 @@ a:hover {
   opacity: 0.7;
 }
 
-#welcome_title {
-  text-align: center;
-  color: #C33926;
-  font-family: 'Roboto Mono:700', monospace;
-  font-size: 3em;
-  padding: 30px 30px 0px 30px;
-}
-
-#intro_text {
-  text-align: left;
-  color: #04748B;
-  font-family: 'Roboto Mono:700', monospace;
-  line-height: 125%;
-  padding: 30px 10px 30px 30px;
-}
-
-.enter_button {
-	background-color: #c33926;
+button.enter_button {
+	background-color: #C33926;
 	width: 100px;
 	height: 30px;
   text-align: center;
   font-family: 'Roboto Mono:400', monospace;
-  position: absolute;
-	bottom: 20px;
-	left: 50%;
+	display: block;
+	margin: 650px auto 10px;
 }
 
+button.enter_button:active {
+	outline: none;
+	border: none;
+}
+
+
 .enter_text {
+	padding: 5px;
 	margin: 6px;
+	color: #FFFFFF;
+	font-size: 1em;
+
 }
