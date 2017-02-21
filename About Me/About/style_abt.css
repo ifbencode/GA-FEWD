@@ -71,8 +71,9 @@ header {
 }
 
 .links:hover {
-  color: white;
   font-weight: bold;
+	color: white;
+	text-decoration: none;
 }
 
 .top_links {
