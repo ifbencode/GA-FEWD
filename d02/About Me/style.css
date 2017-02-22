@@ -87,6 +87,11 @@ header {
 a {
   font-weight: bold;
   text-decoration: none;
+  color: #4A5457;
+}
+
+a:hover {
+  color: #C33926;
 }
 
 .box {
