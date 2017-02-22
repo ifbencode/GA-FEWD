@@ -53,7 +53,6 @@ body {
 		background-size: cover;
 }
 
-
 header {
   height: 100px;
   background: #4A5457;
@@ -84,12 +83,6 @@ header {
   top: 70px;
 }
 
-#static_link {
-  color: white;
-  padding: 20px;
-  opacity: .6;
-}
-
 a {
   font-weight: bold;
   text-decoration: none;
@@ -98,6 +91,12 @@ a {
 
 a:hover {
   color: #C33926;
+}
+
+#static_link {
+  color: white;
+  padding: 20px;
+  opacity: .6;
 }
 
 #container {
@@ -118,11 +117,3 @@ a:hover {
   width: 1030px;
 	display: block;
 	margin: 20px auto;
-  /*position: absolute;
-  left: 50px;
-  top: 40px;*/
-}
-
-/*img {
-	margin: 40px auto;
-}
