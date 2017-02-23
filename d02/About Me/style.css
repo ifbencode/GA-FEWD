@@ -151,6 +151,7 @@ a:hover {
 	padding: 0px;
 	margin: 0px;
 	color: #FFFFFF;
+	font-size: 1.3em;
 }
 
 .enter_text:hover {
@@ -188,7 +189,6 @@ a:hover {
 }
 
 /* gallery */
-
 #container_gallery {
 	width: 800px;
 	margin: 50px auto;
