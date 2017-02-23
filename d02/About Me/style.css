@@ -47,15 +47,29 @@ table {
 	border-spacing: 0;
 }
 
-body {
+/* background images */
+.flatiron {
     background-image: url("./Flatiron.jpg");
     background-color: black;
 		background-size: cover;
 }
+.Flatiron_fade {
+    background-image: url("./Flatiron_fade.jpg");
+    background-color: black;
+		background-size: cover;
+}
 
+.honeycomb {
+	background-image: url("./light_honeycomb/light_honeycomb_@2X.png");
+	background-color: black;
+}
+
+/* site wide */
 header {
   height: 100px;
   background: #4A5457;
+	display: inline-block;
+	width: 100%;
 }
 
 .bl_logo {
@@ -93,6 +107,15 @@ a:hover {
   color: #C33926;
 }
 
+#static_link {
+  color: white;
+  padding: 20px;
+  opacity: .6;
+}
+
+
+/* index */
+
 .box {
   padding: 20px;
   background-color: white;
@@ -105,6 +128,7 @@ a:hover {
 #enter_button {
 	background-color: #C33926;
 	width: 100px;
+	height: 30px;
   text-align: center;
   font-family: 'Roboto Mono:400', monospace;
 	display: block;
@@ -115,6 +139,7 @@ a:hover {
 #enter_button:hover {
 	background-color: #4A5457;
 	width: 100px;
+	height: 30px;
 	text-align: center;
 	font-family: 'Roboto Mono:400', monospace;
 	display: block;
@@ -122,21 +147,65 @@ a:hover {
 	border: 0px;
 }
 
-/*button.enter_button:active {
-	outline: none;
-	border: none;
-	text-decoration: none;
-}*/
-
 .enter_text {
 	padding: 0px;
 	margin: 0px;
 	color: #FFFFFF;
-	font-size: 1em;
 }
 
 .enter_text:hover {
 	text-decoration: none;
 	color: #FFFFFF;
 	border: 0px;
+}
+
+/* about */
+#container_about {
+	background: #FFFFFF;
+  width: 800px;
+  margin: 50px auto;
+	border-radius: 1%;
+	border: 40px solid #FFFFFF;
+	opacity: .8;
+}
+
+#abt_text {
+	font-family: 'Roboto Mono:400', monospace;
+	font-size: .9em;
+	color: #000000;
+	line-height: 110%;
+	display: inline;
+}
+
+/* browse */
+#container_browse {
+	width: 800px;
+	height: 600px;
+	margin: 50px auto;
+	text-align: center;
+  background: #FFFFFF;
+  border: 40px solid #4A5457;
+}
+
+/* gallery */
+
+#container_gallery {
+	width: 800px;
+	margin: 50px auto;
+	text-align: center;
+  background: #FFFFFF;
+	border: 40px solid #FFFFFF;
+}
+
+.gallery_pic {
+	width: 196px;
+}
+
+.gallery_box {
+  display: inline;
+}
+
+.gallery_box:hover {
+  background-color: #FFFFFF;
+  opacity: .5;
 }

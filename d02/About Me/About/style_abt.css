@@ -47,12 +47,26 @@ table {
 	border-spacing: 0;
 }
 
-body {
+/* ---------- begin stylesheet ---------- */
+
+/* background images */
+.flatiron {
     background-image: url("../Flatiron_fade.jpg");
     background-color: black;
 		background-size: cover;
 }
+.flatiron_fade {
+    background-image: url("../Flatiron.jpg");
+    background-color: black;
+		background-size: cover;
+}
+.honeycomb {
+	background-image: url("../light_honeycomb/light_honeycomb_@2X.png");
+    background-color: black;
+		background-size: cover;
+}
 
+/* site wide */
 header {
   height: 100px;
   background: #4A5457;
@@ -99,6 +113,7 @@ a:hover {
   opacity: .6;
 }
 
+/* about */
 #container {
 	background: #FFFFFF;
   width: 1080px;
@@ -117,3 +132,138 @@ a:hover {
   width: 1030px;
 	display: block;
 	margin: 20px auto;
+
+	/* gallery */
+	#container_gallery {
+	  width: 800px;
+	  height: 600px;
+	  position: relative;
+	  margin: 80px auto;
+	  background: #FFFFFF;
+	  border: 40px solid #FFFFFF;
+	}
+
+	#box_one {
+	  background-color: #BDA630;
+	  border: 2px solid #FFFFFF;
+	  width: 200px;
+	  height: 200px;
+	  position: absolute;
+	  left: 0px;
+	  top: 0px;
+	}
+
+	#box_two {
+	  background-color: #BDA630;
+	  border: 2px solid #FFFFFF;
+	  width: 200px;
+	  height: 200px;
+	  position: absolute;;
+	  left: 200px;
+	  top: 0px;
+	}
+
+	#box_three {
+	  background-color: #BDA630;
+	  border: 2px solid #FFFFFF;
+	  width: 200px;
+	  height: 200px;
+	  position: absolute;;
+	  left: 400px;
+	  top: 0px;
+	}
+
+	#box_four {
+	  background-color: #BDA630;
+	  border: 2px solid #FFFFFF;
+	  width: 200px;
+	  height: 200px;
+	  position: absolute;;
+	  left: 600px;
+	  top: px;
+	}
+
+	#box_five {
+	  background-color: #BDA630;
+	  border: 2px solid #FFFFFF;
+	  width: 200px;
+	  height: 200px;
+	  position: absolute;;
+	  left: 0px;
+	  top: 200px;
+	}
+
+	#box_six {
+	  background-color: #BDA630;
+	  border: 2px solid #FFFFFF;
+	  width: 200px;
+	  height: 200px;
+	  position: absolute;
+	  left: 200px;
+	  top: 200px;
+	}
+
+	#box_seven {
+	  background-color: #BDA630;
+	  border: 2px solid #FFFFFF;
+	  width: 200px;
+	  height: 200px;
+	  position: absolute;
+	  left: 400px;
+	  top: 200px;
+	}
+
+	#box_eight {
+	  background-color: #BDA630;
+	  border: 2px solid #FFFFFF;
+	  width: 200px;
+	  height: 200px;
+	  position: absolute;;
+	  left: 600px;
+	  top: 200px;
+	}
+
+	#box_nine {
+	  background-color: #BDA630;
+	  border: 2px solid #FFFFFF;
+	  width: 200px;
+	  height: 200px;
+	  position: absolute;
+	  left: 0px;
+	  top: 400px;
+	}
+
+	#box_ten {
+	  background-color: #BDA630;
+	  border: 2px solid #FFFFFF;
+	  width: 200px;
+	  height: 200px;
+	  position: absolute;
+	  left: 200px;
+	  top: 400px;
+	}
+
+	#box_eleven {
+	  background-color: #BDA630;
+	  border: 2px solid #FFFFFF;
+	  width: 200px;
+	  height: 200px;
+	  position: absolute;
+	  left: 400px;
+	  top: 400px;
+	}
+
+	#box_twelve {
+	  background-color: #BDA630;
+	  border: 2px solid #FFFFFF;
+	  width: 200px;
+	  height: 200px;
+	  position: absolute;
+	  left: 600px;
+	  top: 400px;
+	}
+
+	.box_opaque:hover {
+	  background-color: #FFFFFF;
+	  opacity: .5;
+	}
