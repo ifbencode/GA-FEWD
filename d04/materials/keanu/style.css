@@ -1,0 +1,29 @@
+h1 {
+  color: #7FDBFF;
+}
+
+.abt_keanu {
+  background-color: yellow;
+  height: 125px;
+  width: 800px;
+  padding: 10px;
+  border-bottom: 20px ridge red;
+  margin: 12px 50px 0px 12px;
+}
+
+img {
+  width: 100px;
+  border: 20px outset blue;
+}
+
+img:hover {
+  border: 50px inset red;
+}
+
+div {
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+  border: 1px solid red;
+  background-color: red;
+}

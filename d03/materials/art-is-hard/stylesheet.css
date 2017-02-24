@@ -24,7 +24,8 @@ h1 {
 
 .subheadings {
   font-size: 1em;
-}
+  font-weight: 400;
+  }
 
 .specs {
   font-size: .5em;
