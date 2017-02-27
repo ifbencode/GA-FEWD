@@ -67,6 +67,10 @@ table {
 }
 
 /* site wide */
+body {
+	padding: 50px;
+}
+
 header {
   height: 100px;
   background: #4A5457;
@@ -114,24 +118,20 @@ a:hover {
 }
 
 /* about */
-#container {
+#container_about {
 	background: #FFFFFF;
-  width: 1080px;
-  height: 600px;
-  position: relative;
-  margin: 70px auto;
+  width: 80%;
 	border-radius: 1%;
 	border: 1px solid #FFFFFF;
 	opacity: .8;
+	display: inherit;
 }
 
 #abt_text {
 	font-family: 'Roboto Mono:400', monospace;
 	color: #000000;
 	line-height: 110%;
-  width: 1030px;
-	display: block;
-	margin: 20px auto;
+}
 
 	/* gallery */
 	#container_gallery {

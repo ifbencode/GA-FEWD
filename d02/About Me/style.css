@@ -78,6 +78,10 @@ header {
   margin: 15px 5px;
 }
 
+.hdr-logo {
+	width: 300px;
+}
+
 .links {
   padding: 20px;
   color: #BDA630;
@@ -163,7 +167,7 @@ a:hover {
 /* about */
 #container_about {
 	background: #FFFFFF;
-  width: 800px;
+  width: 80%;
   margin: 50px auto;
 	border-radius: 1%;
 	border: 40px solid #FFFFFF;

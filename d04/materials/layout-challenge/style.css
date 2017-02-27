@@ -50,11 +50,11 @@ table {
 /* ---------- begin stylesheet ---------- */
 
 body {
-	padding: 100px;
+	padding: 25px;
 }
 
 #container {
-	width: 100%;
+	width: 60%;
 	background-color: white;
 	padding: 20px;
 	margin: auto;
@@ -70,15 +70,15 @@ body {
 #left {
 	background-color: gray;
 	width: 60%;
-	margin-right: 5%;
-	height: 600px;
+	margin-right: 4%;
+	height: 400px;
 	display: inline-block;
 }
 
 #right {
 	background-color: gray;
 	width: 25%;
-	height: 600px;
+	height: 400px;
 	display: inline-block;
 }
 
