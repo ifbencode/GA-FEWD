@@ -91,16 +91,74 @@ a {
 	font-family: 'Open Sans', sans-serif;
 }
 
+.contact {
+	width: 100%;
+}
+
 .large-box {
-	width: 50%;
+	width: 52%;
 	background-color: gray;
 	display: block;
 	margin: auto;
 }
 
 .small-box {
-	width: 20%;
+	width: 10%;
 	display: inline-block;
-	margin: auto;
-	border: 1px solid red;
+	margin-top: 10px;
+}
+
+.row1 {
+	text-align: center;
+}
+
+.row2 {
+	text-align: center;
+}
+.row3 {
+	text-align: center;
+}
+
+.twitter-box {
+	background-color: #0084b4;
+	margin-right: 5px;
+}
+
+.dribble-box {
+	background-color: #ea4c89;
+}
+
+.medium-box {
+	background-color: #000000;
+	margin-right: 5px;
+
+}
+
+.insta-box {
+	background-color: #e95950;
+}
+
+.pinterest-box {
+	background-color: #C92228;
+	margin-right: 5px;
+
+}
+
+.rdio-box {
+	background-color: #007dc3;
+}
+
+footer {
+	width: 100%;
+	background-color: #484846;
+	height: 50px;
+	margin-top: 50px;
+}
+
+.copyright {
+	color: #FFFFFF;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: .75em;
+	padding: 20px 0px
 }
