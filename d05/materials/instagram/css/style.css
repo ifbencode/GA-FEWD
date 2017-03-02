@@ -136,7 +136,7 @@ p {
 }
 
 .phdr {
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: 900;
   line-height: 130%;
   color: #11395D;
@@ -147,20 +147,20 @@ p {
 }
 
 footer {
-  width: 800px;
+  width: 600px;
   margin: auto;
   margin-top: 20px;
 }
 
 .bottom-links {
   color: #46739A;
-  font-size: .8em;
+  font-size: .7em;
   padding-left: 10px;
 }
 
 .copyright {
   color: #CFCFCF;
-  font-size: .5em;
+  font-size: .35em;
   padding-left: 20px;
 }
 
