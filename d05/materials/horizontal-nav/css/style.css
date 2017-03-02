@@ -1,0 +1,27 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+.nav {
+	width: 100%;
+	background: #000000;
+}
+
+
+.link {
+	color: #FFFFFF;
+	display: inline-block;
+	padding: 30px;
+	text-decoration: none;
+}
+
+.link:hover {
+	background: orange;
+}
+
+
+.hi {
+	font-size: 2em;
+	font-weight: bold;
+}

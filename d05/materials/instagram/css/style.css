@@ -1,0 +1,157 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ---------- begin stylesheet ---------- */
+html {
+  height: 100%;
+}
+
+body {
+    height: 100%;
+    background: linear-gradient(0deg, #FFFFFF 65%, #46739A 35%);
+    font-family: 'Roboto', sans-serif;
+    padding: 50px;
+}
+
+.phones {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+}
+
+#container {
+  width: 800px;
+  margin: auto;
+}
+
+#iphone-pic {
+  height: 400px;
+}
+
+.logo-group {
+  display: inline-block;
+  height: 350px;
+  vertical-align: top;
+}
+
+.insta-logo {
+  display: inline-block;
+}
+
+#insta-pic {
+  width: 200px;
+}
+
+#house {
+  width: 30px;
+  margin-left: 5px;
+}
+
+.insta-logo-login {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.login-button {
+  width: 100px;
+  height: 40px;
+  display: inline-block;
+  background-color: #6D91AF;
+  margin-left: 80px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, .8);
+  border-radius: .25em;
+}
+
+.login {
+  display: inline-block;
+  color: #FFFFFF;
+  padding: 0px;
+  vertical-align: middle;
+}
+
+.info-box {
+  background: white;
+  width: 400px;
+  border: 1px solid rgba(0, 0, 0, .5);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, .5);
+  border-radius: 1%;
+}
+
+p {
+  padding: 20px;
+  font-size: .8em;
+  line-height: 110%;
+}
+
+footer {
+  width: 800px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.bottom-links {
+  color: #46739A;
+  font-size: .8em;
+  padding-left: 20px;
+}
+
+.copyright {
+  color: rgb(175, 175, 175);
+  font-size: .5em;
+  padding-left: 20px;
+}
+
+
+.os-button {
+  height: 30px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
