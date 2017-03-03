@@ -1,0 +1,23 @@
+h1, h2 {
+	display: inline-block;
+	margin: 0;
+}
+
+h1 {
+	background-color: red;
+	color: #FFFFFF;
+	padding: 10px 5px 10px 120px;
+}
+
+h2 {
+	padding-left: 6px;
+	color: gray;
+}
+
+div.container {
+	width: 960px;
+}
+
+img {
+	width: 100%;
+}
