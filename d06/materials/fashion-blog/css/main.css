@@ -76,7 +76,7 @@ h2 {
 div > p > a {
   color: #DDDDDD;
   margin-right: 20px;
-	padding-bottom: 2px;
+	padding-bottom: 1px;
   border-bottom: 10px;
 	text-decoration: none;
 	border-bottom: 1px solid #DDDDDD;
@@ -85,7 +85,7 @@ div > p > a {
 div > p > a:hover {
   color: #AA0000;
   margin-right: 20px;
-	padding-bottom: 2px;
+	padding-bottom: 1px;
   border-bottom: 10px;
 	text-decoration: none;
 	border-bottom: 1px solid #AA0000;
@@ -127,7 +127,7 @@ p {
 }
 
 hr {
-	border: 1px solid #DDDDDD;
+	border: .1px solid #DDDDDD;
 	margin: 20px auto;
 }
 
@@ -138,10 +138,9 @@ hr {
  }
 
  .footer > a:hover {
- 	font-size: .8em;
+ 	font-size: .9em;
   color: #000000;
  	text-decoration: none;
- 	margin-right: 10px;
   }
 
 .footer {
