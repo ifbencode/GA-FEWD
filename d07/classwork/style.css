@@ -1,0 +1,9 @@
+.container {
+	width: 100%;
+}
+
+.col-1-1, .col-8-12, .col-4-12 {
+	height: 100px;
+	margin-bottom: 10px;
+	border: 1px solid red;
+}
