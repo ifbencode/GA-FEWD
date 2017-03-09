@@ -29,3 +29,16 @@
   border: 1px solid rgba(100, 100, 100, .5);
   margin-bottom: 20px;
 }
+
+
+.col-2-5 {
+	width: 40%;
+}
+
+.col-3-5 {
+	width: 60%;
+}
+
+.col-4-5 {
+	width: 80%;
+}
