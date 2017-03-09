@@ -1,0 +1,16 @@
+.header, .box-1, .box-2, .footer{
+  background: #eaeaea;
+  border: 1px solid rgba(100, 100, 100, .5);
+}
+
+.header, .footer{
+  height: 150px;
+}
+
+.box-1, .box-2{
+  height: 300px;
+}
+
+.box-1-container, .box-2-container{
+  padding: 20px 20px 20px 0;
+}
