@@ -9,27 +9,29 @@
 }
 
 .row-1-container {
-  display: inline-block;
+  height: 175px;
 }
 
 .row-2-container {
 }
 
 .box-7 {
-  height: 500px;
+  height: 843px;
 }
 
-.box-8 {
-  height: 150px;
+.box-8, .box-11, .box-12, .box-13, .box-14, .box-15 {
+  height: 200px;
 }
 
+.box-9, .box-10 {
+  height: 400px;
+}
 
 .row {
   background: #eaeaea;
   border: 1px solid rgba(100, 100, 100, .5);
   margin-bottom: 20px;
 }
-
 
 .col-2-5 {
 	width: 40%;
