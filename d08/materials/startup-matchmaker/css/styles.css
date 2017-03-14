@@ -1,21 +1,18 @@
-/*
-// FONT FAMILY HELPERS :)
-// font-family: 'Oswald', sans-serif;
-// font-family: 'Merriweather', serif;
-// font-family: 'Source Sans Pro', sans-serif;
-*/
+* {
+  font-size: 16px;
+}
 
 body {
   padding: 0;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-h1 {
+h1.logo {
   display: inline-block;
   padding-left: 20px;
   font-family: 'Merriweather', serif;
+  font-size: 1.5rem;
 }
-
 
 .top {
   background-color: #000000;
@@ -27,7 +24,7 @@ h1 {
 nav {
   display: inline-block;
   text-align: right;
-  padding-top: 2rem;
+  padding-top: 1.5rem;
 }
 
 .tagline {
@@ -38,16 +35,18 @@ nav {
   width: 100%;
   margin: 0;
   font-style: italic;
+  font-size: 1.5rem;
 }
 
 span.cross-out {
   text-decoration: line-through;
   color: #808080;
+  font-size: 1.5rem;
 }
 
 span.bottom-border {
   border-bottom: 2px solid yellow;
-
+  font-size: 1.5rem;
 }
 
 .blurb {
@@ -61,15 +60,18 @@ section > div > h2 {
   margin: 0;
   font-family: 'Oswald', sans-serif;
   margin: 0;
+  font-size: 1.5rem;
 }
 
 section > div > h3 {
   font-family: 'Merriweather', serif;
   margin: 0;
+  font-size: 1.25rem;
 }
 
 section > div > p {
   margin-bottom: 40px;
+  line-height: 1.5rem;
 }
 
 section.cover-photo {
@@ -89,12 +91,21 @@ section.cover-photo {
   font-family: 'Oswald', sans-serif;
 }
 
+.actions-group {
+  height: 244px;
+  background-color: #ededed;
+}
+
 .actions {
   padding: 20px;
   box-sizing: border-box;
   background-color: #ededed;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.box-1, .box-2 {
   border-right: 1px solid #C6C6C6;
-  height: 200px;
 }
 
 /*
