@@ -92,8 +92,9 @@ section.cover-photo {
 }
 
 .actions-group {
-  height: 244px;
+  padding: 5px;
   background-color: #ededed;
+  display: inline-block;
 }
 
 .actions {
