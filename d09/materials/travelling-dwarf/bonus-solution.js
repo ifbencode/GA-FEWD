@@ -26,7 +26,7 @@ while (g.at(4,verBox) === (0)) {
 
 var coords = 0;
 
-var horBox = 0;
+var horBox = 1;
 
 while (g.at(horBox,0) === (0)) {
   d.move();
