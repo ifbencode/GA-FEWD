@@ -1,0 +1,26 @@
+body {
+  padding: 20px;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+  display: inline-block;
+  margin-right: 20px;
+  vertical-align: top;
+  text-align: center;
+}
+
+.box-one {
+  color: white;
+  font-style: italic;
+}
+.box-two {
+  font-style: italic;
+}
+
+.box.bigger {
+  width: 500px;
+  height: 500px;
+}

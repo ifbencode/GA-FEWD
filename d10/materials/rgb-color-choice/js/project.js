@@ -1,7 +1,6 @@
 console.log("color-test");
 
 
-
 $("#color-button").on("click", function() {
   var redBackgroundColor = $("#red").val();
   var greenBackgroundColor = $("#green").val();

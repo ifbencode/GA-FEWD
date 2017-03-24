@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Temperature Converter</title>
+
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+  <label>
+		<select id="month">
+		    <option value="hide">Temperature</option>
+		    <option value="farenheit" rel="icon-temperature">Farenheit</option>
+		    <option value="celcius">Celcius</option>
+		</select>
+		<input type="text" id="temperature" />
+  </label>
+
+  <button>Convert!</button>
+
+  <p>That is equal to <span id="converted"></span>° <span id="temp-type">.</p>
+
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="js/bonus-project.js"></script>
+</body>
+</html>
