@@ -50,16 +50,16 @@ $("div#n30").on("click", function() {
 
 $("#red").on("click", function() {
   // console.log("red clicked");
-  $("#out").addClass("red");
+  $("#out").toggleClass("red");
 })
 
 $("#blue").on("click", function() {
   // console.log("red clicked");
-  $("#out").addClass("blue");
+  $("#out").toggleClass("blue");
 })
-
-$("#out").on("click", function() {
-  // console.log("out clicked");
-  $("#out").text("0");
-  $("#out").css("background-color", "white");
-})
+//
+// $("#out").on("click", function() {
+//   // console.log("out clicked");
+//   $("#out").text("0");
+//   $("#out").css("background-color", "white");
+// })

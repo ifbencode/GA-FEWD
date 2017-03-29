@@ -2,14 +2,19 @@ console.log("celcius project");
 
 $("button").on("click", function() {
   // console.log("pushed");
-  var fDegrees = $("input").val();
-  var cDegrees = $("input").val();
+  var fDegrees = $("input").val(farenheit);
+  var cDegrees = $("input").val(celcius);
 
   // console.log(degrees = degrees * 1.8 + 32);
-  degrees = degrees * 1.8 + 32;
-  $("#converted").text(degrees);
-  $("#converted").css("font-size", "5em");
+  console.log(fdegrees = fdegrees * 1.8 + 32);
+  // $("#converted").text(fdegrees);
+  // $("#converted").css("font-size", "5em");
+  //
+  // cdegrees = (cdegrees - 32) / 1.8;
+  // $("#converted").text(cdegrees);
+  // $("#converted").css("font-size", "5em");
 })
+
 
 // $('select').each(function(){
 //     var $this = $(this), numberOfOptions = $(this).children('option').length;
