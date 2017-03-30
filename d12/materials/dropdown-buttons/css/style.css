@@ -42,6 +42,7 @@ a:hover {
 
 #fileDropMenu.show {
   display: block;
+  background-color: #FFFFFF;
 }
 
 #container {

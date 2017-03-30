@@ -2,31 +2,33 @@
 
 $("#fileDropDown").on("click", function() {
     // console.log("clicked");
-    $("#fileDropMenu").toggleClass("show");
+    $("#fileDropMenu").addClass("show");
 })
+
+$("#fileDropDown").on("focus", function() {
+  // console.log('focus-check');
+  $("#fileDropDown").css("background-color", "rgba(0, 0, 0, .3)");
+});
+
+$("#fileDropDown").on("focusout", function() {
+  // console.log('focus-check');
+  $("#fileDropDown").css("background-color", "rgba(0, 0, 0, 0)");
+  $("#fileDropMenu").removeClass("show");
+});
+
 
 $("#editDropDown").on("click", function() {
     // console.log("clicked");
-    $("#editDropMenu").toggleClass("show");
+    $("#editDropMenu").addClass("show");
 })
 
-// $("#fileDropDown").on("focusout", function() {
-//   console.log('focusout-check');
-//   // $("#dropdownOne").css("background-color", "white");
-// });
+$("#editDropDown").on("focus", function() {
+  // console.log('focus-check');
+  $("#editDropDown").css("background-color", "rgba(0, 0, 0, .3)");
+});
 
-//
-// $("#fileDropDown").mouseover(function() {
-// // console.log("hover check");
-//   $("#fileDropDown").css("background-color", "rgba(0, 0, 0, .1)");
-// })
-// $("#fileDropDown").mouseout(function() {
-//   $("#fileDropDown").css("background-color", "#FFFFFF");
-// })
-//
-// $("#fileDropMenu").mouseover(function() {
-//   $("#fileDropMenu").css("background-color", "rgba(0, 0, 0, .1)");
-// })
-// $("#fileDropMenu").mouseout(function() {
-//   $("#fileDropMenu").css("background-color", "#FFFFFF");
-// })
+$("#editDropDown").on("focusout", function() {
+  // console.log('focus-check');
+  $("#editDropDown").css("background-color", "rgba(0, 0, 0, 0)");
+  $("#editDropMenu").removeClass("show");
+});
