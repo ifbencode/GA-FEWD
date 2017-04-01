@@ -16,9 +16,9 @@ $('body').on("click", function(e) {
   var target = e.target;
   console.log($(target).attr('id'))
 
-  // if ($(target).attr('class') !== 'dropDownList' && $(target).attr('class') !== 'dropDownHeading') {
-  //   $("#fileDropMenu").removeClass("show");
-  //   $("#fileDropDown").css("background-color", "rgba(0, 0, 0, 0)");
-  // }
+  if ($(target).attr('id') !== 'form-container' && $(target).attr('id') !== 'header-sign-in') {
+    $("#form-container").removeClass("show");
+    $("body").css("background-color", "rgba(0, 0, 0, 0)");
+  }
 
 });
