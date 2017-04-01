@@ -1,0 +1,65 @@
+h1 {
+  margin-left: 20px;
+}
+
+div#header > a {
+  margin-left: 20px;
+}
+
+#form-container {
+  background-color: #FFFFFF;
+  width: 25%;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  padding: 0px 10px 10px 10px;
+  position: absolute;
+  left: 36%;
+  top: 25%;
+  display: none;
+}
+
+#form-container.show {
+  display: block;
+}
+
+#container {
+  width: 100%;
+  height:inherit;
+  background-color: red;
+}
+
+form {
+  margin: 20px;
+}
+
+hr {
+  width: 100%;
+}
+
+form > input {
+  display: block;
+  border: 1px solid lightgrey;
+  border-radius: 2px;
+  width: 100%;
+  margin-bottom: 10px;
+  color: lightgrey;
+}
+
+div#buttons-container > a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+#buttons-container{
+  margin-top: 20px;
+}
+
+#sign-in {
+  background-color: #21BA45;
+  padding: 8px 15px;
+}
+
+#cancel {
+  background-color: #1B1C1D;
+  padding: 8px 15px;
+}
