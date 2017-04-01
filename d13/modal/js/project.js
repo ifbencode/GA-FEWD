@@ -1,19 +1,16 @@
 
 $("#header-sign-in").on("click", function() {
-  // console.log("clicked");
   $("#form-container").fadeToggle(500);
   $("body").css("background-color", "rgba(0, 0, 0, .8)");
 })
 
 $("#input-email").on("click", function() {
-  console.log("input text");
-  $("#input-email").val(" ");
+  $("#input-email").val("");
 })
 
 $("#input-pw").on("click", function() {
-  console.log("input text");
-  $("#input-pw").val(" ");
-  $("input-pw").val("password");
+  $(this).val("");
+  $(this).prop('type', 'password');
 })
 
 
