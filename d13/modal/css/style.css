@@ -18,10 +18,6 @@ div#header > a {
   display: none;
 }
 
-#form-container.show {
-  display: block;
-}
-
 #container {
   width: 100%;
   height:inherit;
