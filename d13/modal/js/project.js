@@ -20,6 +20,12 @@ $(document).on('click', function(e) {
   }
 })
 
+$("#cancel").on("click", function() {
+  $("#form-container").hide();
+  $("body").css("background-color", "#FFFFFF");
+})
+
+
 
 // $("body").on("focusout", function() {
 //   $("#form-container").fadeToggle(500);
