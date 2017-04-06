@@ -10,7 +10,7 @@ $("#input-email").on("click", function() {
 
 $("#input-pw").on("click", function() {
   $(this).val("");
-  $(this).prop('type', 'password');
+  // $(this).prop('type', 'password');
 })
 
 $(document).on('click', function(e) {
@@ -24,6 +24,7 @@ $("#cancel").on("click", function() {
   $("#form-container").hide();
   $("body").css("background-color", "#FFFFFF");
 })
+
 
 
 
