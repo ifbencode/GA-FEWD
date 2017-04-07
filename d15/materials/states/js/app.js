@@ -28,3 +28,7 @@ $("#ny").on("click", function() {
   $("#first-senator").text(ny["usSenators"][0]);
   $("#second-senator").text(ny["usSenators"][1]);
 })
+
+$.getJSON("http://api.openweathermap.org/data/2.5/weather?q=Trenton,NJ&units=imperial&appid=b69d52d8b5e834e67958593dedc46fb6", function(data) {
+  console.log(data["name"]);
+});
