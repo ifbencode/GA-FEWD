@@ -21,3 +21,8 @@ $("button").on("click", function() {
     $(".icon").attr("src", iconUrl);
   });
 })
+
+
+// references:
+// https://www.reddit.com/r/FreeCodeCamp/comments/4con5s/how_do_i_use_the_icon_given_in_the_open_weather/
+// http://stackoverflow.com/questions/554273/changing-the-image-source-using-jquery
