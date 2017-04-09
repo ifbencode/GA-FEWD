@@ -16,5 +16,6 @@ $("button").on("click", function() {
   $.getJSON("http://api.openweathermap.org/data/2.5/weather?q="+(cityName)+"&units=imperial&appid=b69d52d8b5e834e67958593dedc46fb6", function(data) {
     $("span").text(data["main"]["temp"]);
     $("span").css("font-size", "3em");
+    $(".icon").html(data["weather"]["icon"]);
   });
 })
