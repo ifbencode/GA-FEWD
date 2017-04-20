@@ -45,7 +45,7 @@ section {
   position: relative;
 }
 
-#male-container {
+#male-container, #female-container {
   margin: 0 auto;
   position: absolute;
   left: 35%;
@@ -81,6 +81,13 @@ section {
 
 li {
   list-style: none;
+}
+
+.dropLink:hover {
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.3);
+  clear: both;
+  display: block;
 }
 
 .tee {
