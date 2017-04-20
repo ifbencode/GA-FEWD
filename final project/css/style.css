@@ -1,0 +1,180 @@
+body {
+  background-color: #333;
+  padding: 20px;
+}
+
+#container {
+  margin: 0 auto;
+  width: 80%;
+  background-color: #333;
+}
+
+header {
+  background-color: #FFFFFF;
+}
+
+#logo-container {
+  margin: 0 auto;
+}
+
+h1#logo {
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #333;
+  font-weight: lighter;
+  position: relative;
+  right: 60px;
+}
+
+#changeText {
+    opacity: 1;
+    transition: opacity 0.5s;
+    position: absolute;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.hide {
+    opacity: 0 !important;
+}
+
+#figure-container {
+  text-align: center;
+}
+
+section {
+  position: relative;
+}
+
+#male-container {
+  margin: 0 auto;
+  position: absolute;
+  left: 35%;
+  top: 25%;
+}
+
+.male-figure {
+  height: 500px;
+  margin: 0 auto;
+  position: absolute;
+  left: 35%;
+  top: 25%;
+  z-index: 0;
+}
+
+.tops-secondary-menu {
+  display: none;
+}
+
+.tops-secondary-menu.show {
+  display: block;
+  text-decoration: none;
+}
+
+.bottoms-secondary-menu {
+  display: none;
+}
+
+.bottom-secondary-menu.show {
+  display: block;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.tee {
+  margin: 0 auto;
+  position: absolute;
+  left: 35%;
+  top: 25%;
+  z-index: 2;
+}
+
+.pants {
+  margin: 0 auto;
+  position: absolute;
+  left: 35%;
+  top: 25%;
+  z-index: 1;
+}
+
+.figure {
+  margin: auto;
+}
+
+img {
+  height: 500px;
+}
+
+.menu {
+  width: 100px;
+
+}
+
+#tees-buttons {
+  background-color: #FFFFFF;
+  padding: 20px;
+  border-radius: 2px;
+  position: relative;
+  left: 90%;
+  top: 3rem;
+  z-index: 2;
+  display: none;
+}
+
+#tees-buttons.show {
+  display: block;
+}
+
+.close-x-tees {
+  position: absolute;
+  right: 4px;
+  top: 2px;
+  cursor: pointer;
+}
+
+#pants-buttons {
+  background-color: #FFFFFF;
+  padding: 20px;
+  border-radius: 2px;
+  position: relative;
+  z-index: 2;
+  left: 90%;
+  top: 8rem;
+  z-index: 2;
+  display: none;
+}
+
+#pants-buttons.show {
+  display: block;
+}
+
+.close-x-pants {
+  position: absolute;
+  right: 4px;
+  top: 2px;
+  cursor: pointer;
+}
+
+/*.block-link {
+  display: block;
+  text-align: center;
+}
+
+#tees {
+  position: absolute;
+  right: 20px;
+}
+
+#pants {
+  position: absolute;
+  right: 20px;
+  top: 50px;
+}
+
+#remove {
+  position: absolute;
+  right: 20px;
+  top: 100px;
+}*/

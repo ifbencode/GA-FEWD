@@ -15,6 +15,7 @@ $("button").on("click", function() {
     $(".temperature").css("font-size", "3em");
 
     var weatherIcon = data.weather[0].icon;
+    // var weatherIcon = data.weather[0]["icon"];
     // console.log(weatherIcon);
     var iconUrl = "http://openweathermap.org/img/w/" + weatherIcon + ".png";
     // console.log(iconUrl);
