@@ -8,6 +8,7 @@
   </head>
   <body>
     <div id="container">
+
       <nav class="navbar navbar-default">
         <div class="container-fluid">
           <!-- Brand and toggle get grouped for better mobile display -->
@@ -65,45 +66,44 @@
         </div><!-- /.container-fluid -->
       </nav>
 
+      <div id="figure-container">
+        <img class="male-figure img-rounded" src="./imgs/male_fig.jpg"/>
+      </div>
 
-      <section>
-        <div id="male-container">
-          <img class="male-figure img-rounded" src="./imgs/male_fig.jpg"/>
-        </div>
+      <!--hidden section until clicked-->
+      <div id="clothes-container">
+        <img class="tee"></img>
+        <img class="pants"></img>
+      </div>
 
-        <!--hidden section until clicked-->
-        <div id="clothes-container">
-          <img class="tee"></img>
-          <img class="pants"></img>
-        </div>
+      <!-- <a class="outfit-buttons" id="tees" href="#">Tees</a> moved to header -->
 
-          <!-- <a class="outfit-buttons" id="tees" href="#">Tees</a> moved to header -->
+      <div class="menu" id="tees-buttons">
+        <p>Choose tee-shirt color</p><span class="close-x-tees">x</span>
+        <div class="color-box" id="whiteTee" title="WHITE" href="#"></div>
+        <div class="color-box" id="grayTee" title="GRAY" href="#" title="GRAY"></div>
+        <div class="color-box" id="charcoalTee" title="CHARCOAL" href="#"></div>
+        <div class="color-box" id="blackTee" title="BLACK" href="#"></div>
+        <div class="color-box" id="blueTee" title="BLUE" href="#"></div>
+        <div class="color-box" id="redTee" title="RED" href="#"></div>
+        <div class="color-box" id="greenTee" title="GREEN" href="#"></div>
+        <div class="color-box" id="yellowTee" title="YELLOW" href="#"></div>
+        <div class="color-box" id="pinkTee" title="PINK" href="#"></div>
+      </div>
 
-          <div class ="menu" id="tees-buttons">
-            <span class="close-x-tees">x</span>
-            <a class="block-link" id="whiteTee" href="#">white</a>
-            <a class="block-link" id="grayTee" href="#">gray</a>
-            <a class="block-link" id="charcoalTee" href="#">charcoal</a>
-            <a class="block-link" id="blackTee" href="#">black</a>
-            <a class="block-link" id="redTee" href="#">red</a>
-            <a class="block-link" id="blueTee" href="#">blue</a>
-            <a class="block-link" id="yellowTee" href="#">yellow</a>
-          </div>
+      <!-- <a class="outfit-buttons" id="pants" href="#">Pants</a> -->
 
-          <!-- <a class="outfit-buttons" id="pants" href="#">Pants</a> -->
+      <div class="menu" id="pants-buttons">
+        <p>Choose pants color</p>
+        <span class="close-x-pants">x</span>
+        <div class="color-box" id="bluePants" href="#"></div>
+        <div class="color-box" id="blackPants" href="#"></div>
+        <div class="color-box" id="tanPants"></div>
+        <div class="color-box" id="grayPants" href="#"></div>
+        <div class="color-box" id="dkGrayPants" href="#"></div>
+      </div>
 
-          <div class="menu" id="pants-buttons">
-            <span class="close-x-pants">x</span>
-            <a class="block-link" id="bluePants" href="#">blue</a>
-            <a class="block-link" id="blackPants" href="#">black</a>
-            <a class="block-link" id="tanPants" href="#">tan</a>
-            <a class="block-link" id="grayPants" href="#">gray</a>
-          </div>
-
-
-          <!-- <a class="outfit-buttons" id="remove" href="#">remove all</a> -->
-        </div>
-      </section>
+      <!-- <a class="outfit-buttons" id="remove" href="#">remove all</a> -->
 
     </div><!--container-->
 

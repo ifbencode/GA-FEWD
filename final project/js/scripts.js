@@ -1,7 +1,14 @@
-var text = ["get up?", "wardrobe?", "gear?"];
+$("#landing-page").on("click", function(){
+  $(this).fadeOut();
+  setInterval(5000);
+  $("#main-container").fadeIn("show");
+  setInterval(5000);
+})
+
+var text = ["style.", "wardrobe.", "gear.", "you."];
 var counter = 0;
 var elem = document.getElementById("changeText");
-setInterval(change, 2500);
+setInterval(change, 1000);
 
 function change() {
     elem.classList.add('hide');
@@ -12,5 +19,5 @@ function change() {
         if (counter >= text.length) {
             counter = 0;
         }
-    }, 500);
+    }, 10);
 }
