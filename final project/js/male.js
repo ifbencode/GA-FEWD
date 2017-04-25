@@ -116,6 +116,7 @@ var grayTeeF = "./imgs/female/female-tee-gray.png"
 var lavenderTeeF = "./imgs/female/female-tee-lavender.png"
 var pinkTeeF = "./imgs/female/female-tee-pink.png"
 var redTeeF = "./imgs/female/female-tee-red.png"
+var navyTeeF = "./imgs/female/female-tee-navy.png"
 
 $("#whiteTeeF").on("click", function() {
   $(".tee").attr("src", whiteTeeF);
@@ -131,6 +132,9 @@ $("#pinkTeeF").on("click", function() {
 })
 $("#redTeeF").on("click", function() {
   $(".tee").attr("src", redTeeF);
+})
+$("#navyTeeF").on("click", function() {
+  $(".tee").attr("src", navyTeeF);
 })
 
 

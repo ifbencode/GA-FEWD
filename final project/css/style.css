@@ -17,7 +17,7 @@ body {
 #container {
   margin: 0 auto;
   width: 80%;
-  background-color: #333;
+  /*background-color: #333;*/
 }
 
 #main-container.show {
@@ -30,18 +30,20 @@ header {
 
 h1#logo {
   text-align: center;
-  padding-right: 100px;
-  color: #FFFFFF;
+  margin: 100px 100px 0px 0px;
+  color: rgba(255,255,255,.5);
   background-color: #333;
   font-weight: lighter;
+  font-size: 3em;
 }
 
 #changeText {
     opacity: 1;
     transition: opacity 0.5s;
     position: absolute;
-    margin-left: 10px;
+    margin-left: 1%;
     font-weight: bold;
+    color: white;
 }
 
 .hide {
@@ -55,6 +57,7 @@ h1#logo {
 .figure {
   margin: 0 auto;
   height: 500px;
+  display: inline-block;
 }
 
 .male-figure {

@@ -1,8 +1,6 @@
 $("#landing-page").on("click", function(){
-  $(this).fadeOut();
-  setInterval(5000);
+  $( this ).fadeOut();
   $("#main-container").fadeIn("show");
-  setInterval(5000);
 })
 
 var text = ["style.", "wardrobe.", "gear.", "you."];
@@ -19,5 +17,22 @@ function change() {
         if (counter >= text.length) {
             counter = 0;
         }
-    }, 10);
+    }, 0);
 }
+
+
+$(document).ready(function(){
+  $(".hiddenFemaleFigure").hide();
+    $(".female").hover(function() {
+      $(".shownFemaleFigure").toggle();
+      $(".hiddenFemaleFigure").toggle();
+  })
+})
+
+$(document).ready(function(){
+  $(".hiddenMaleFigure").hide();
+    $(".male").hover(function() {
+      $(".shownMaleFigure").toggle();
+      $(".hiddenMaleFigure").toggle();
+  })
+})
