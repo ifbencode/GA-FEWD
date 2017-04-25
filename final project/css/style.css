@@ -64,7 +64,7 @@ h1#logo {
   height: 500px;
   position: absolute;
   left: 35%;
-  top: 20%;
+  top: 15%;
   z-index: 0;
 }
 
@@ -127,24 +127,47 @@ h1#logo {
 #bluePants {
   background-color: blue;
 }
-
 #blackPants {
   background-color: black;
 }
-
 #tanPants {
   background-color: tan;
 }
-
 #grayPants {
   background-color: gray;
 }
-
 #dkGrayPants {
   background-color: rgb(100, 100, 100);
 }
 
+#whiteTeeF {
+  background-color: white;
+}
+#grayTeeF {
+  background-color: gray;
+}
+#lavenderTeeF {
+  background-color: purple;
+}
+#pinkTeeF {
+  background-color: pink;
+}
+#redTeeF {
+  background-color: red;
+}
+#navyTeeF {
+  background-color: #1C1D21;
+}
 
+#dkBluePantsF {
+  background-color: #00305A;
+}
+#blackPantsF {
+  background-color: black;
+}
+#dkGrayPantsF {
+  background-color: #333;
+}
 
 .tops-secondary-menu {
   display: none;
@@ -179,7 +202,7 @@ li {
   margin: 0 auto;
   position: absolute;
   left: 35%;
-  top: 20%;
+  top: 15%;
   height: 500px;
   z-index: 2;
 }
@@ -188,7 +211,7 @@ li {
   margin: 0 auto;
   position: absolute;
   left: 35%;
-  top: 20%;
+  top: 15%;
   height: 500px;
   z-index: 1;
 }
@@ -220,4 +243,29 @@ li {
   right: 4px;
   top: 2px;
   cursor: pointer;
+}
+
+hr {
+  border: 1px solid rgba(255, 255, 255, .2);
+}
+
+footer {
+  text-align: center;
+  margin-top: 10%;
+}
+
+#mFooter {
+  text-align: center;
+  margin-top: 15%;
+  position: relative;
+  top: 450px;
+}
+
+footer a {
+  margin-right: 100px;
+  color: rgba(255, 255, 255, .2);
+}
+footer a:hover {
+  text-decoration: none;
+  color: rgba(255, 255, 255, .6);
 }

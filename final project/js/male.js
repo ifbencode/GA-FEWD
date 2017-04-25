@@ -137,12 +137,8 @@ $("#navyTeeF").on("click", function() {
   $(".tee").attr("src", navyTeeF);
 })
 
-
-
 var dkBluePantsF = "./imgs/female/female-pants-dkblue.png"
-
 var blackPantsF = "./imgs/female/female-pants-black.png"
-
 var dkGrayPantsF = "./imgs/female/female-pants-dkgray.png"
 
 $("#dkBluePantsF").on("click", function () {
