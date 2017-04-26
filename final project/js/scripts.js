@@ -3,7 +3,7 @@ $("#landing-page").on("click", function(){
   $("#main-container").fadeIn("show");
 })
 
-var text = ["style.", "wardrobe.", "gear.", "you."];
+var text = ["style.", "look.", "method.", "threads.", "you."];
 var counter = 0;
 var elem = document.getElementById("changeText");
 setInterval(change, 1000);
