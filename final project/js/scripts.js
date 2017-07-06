@@ -3,6 +3,11 @@ $("#landing-page").on("click", function(){
   $("#main-container").fadeIn("show");
 })
 
+$(".contact-link").on("click",function(){
+  $("#contact-form").fadeIn();
+  $("#close-out").fadeOut();
+})
+
 var text = ["style.", "look.", "method.", "threads.", "you."];
 var counter = 0;
 var elem = document.getElementById("changeText");

@@ -269,3 +269,17 @@ footer a:hover {
   text-decoration: none;
   color: rgba(255, 255, 255, .6);
 }
+
+#contact-form {
+  width: 50%;
+  position: absolute;
+  margin-left: 50%;
+  color: rgba(0,0,0,.5);
+  background-color: #000000;
+  display: none;
+}
+
+.fill {
+  width: 200px;
+  padding: 5px;
+}
