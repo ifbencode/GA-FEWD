@@ -271,15 +271,21 @@ footer a:hover {
 }
 
 #contact-form {
-  width: 50%;
   position: absolute;
-  margin-left: 50%;
-  color: rgba(0,0,0,.5);
+  top: 50%;
+  left: 42%;
+  padding: 20px;
   background-color: #000000;
   display: none;
+}
+
+.close-out {
+  color: #FFFFFF;
+  cursor: pointer;
 }
 
 .fill {
   width: 200px;
   padding: 5px;
+  color: rgba(0,0,0,.5);
 }
