@@ -5,7 +5,10 @@ $("#landing-page").on("click", function(){
 
 $(".contact-link").on("click",function(){
   $("#contact-form").fadeIn();
-  $("#close-out").fadeOut();
+})
+
+$(".close-out").on("click", function(){
+  $(".contact-link").fadeOut();
 })
 
 var text = ["style.", "look.", "method.", "threads.", "you."];

@@ -271,21 +271,28 @@ footer a:hover {
 }
 
 #contact-form {
+  width: 600px;
   position: absolute;
-  top: 50%;
-  left: 42%;
+  top: 20%;
+  left: 30%;
   padding: 20px;
-  background-color: #000000;
+  background-color: rgba(0, 0, 0, .6);
+  border-radius: .5em;
   display: none;
 }
 
 .close-out {
   color: #FFFFFF;
   cursor: pointer;
+  position: absolute;
+  right: 10px;
+  top: 0px;
 }
 
 .fill {
-  width: 200px;
-  padding: 5px;
+  width: 550px;
+  height: 50px;
+  padding-left: 10px;
   color: rgba(0,0,0,.5);
+  margin-bottom: 20px;
 }
