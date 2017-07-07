@@ -3,12 +3,13 @@ $("#landing-page").on("click", function(){
   $("#main-container").fadeIn("show");
 })
 
-$(".contact-link").on("click",function(){
-  $("#contact-form").fadeIn();
-})
-
-$(".close-out").on("click", function(){
-  $(".contact-link").fadeOut();
+$(document).ready(function(){
+  $(".contact-link").click(function(){
+    $("#contact-form").show();
+  })
+  $(".close-out").click(function(){
+    $("#contact-form").hide();
+  })
 })
 
 var text = ["style.", "look.", "method.", "threads.", "you."];
