@@ -3,14 +3,14 @@ $("#landing-page").on("click", function(){
   $("#main-container").fadeIn("show");
 })
 
-$(document).ready(function(){
+// $(document).ready(function(){
   $(".contact-link").click(function(){
     $("#contact-form").show();
   })
   $(".close-out").click(function(){
     $("#contact-form").hide();
   })
-})
+// })
 
 var text = ["style.", "look.", "method.", "threads.", "you."];
 var counter = 0;
