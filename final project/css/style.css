@@ -270,24 +270,39 @@ footer a:hover {
   color: rgba(255, 255, 255, .6);
 }
 
-#contact-form {
-  width: 600px;
+#form-container {
   position: absolute;
   top: 20%;
   left: 30%;
+}
+
+#contact-form {
+  width: 600px;
   padding: 20px;
   background-color: rgba(0, 0, 0, .6);
   border-radius: .5em;
   display: none;
 }
 
-.close-out {
+.form-copy {
+  font-family: 'Patua One', cursive;
   color: #FFFFFF;
+  font-size: 2em;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.close-out {
+  color: rgba(255, 255, 255, .5);
   cursor: pointer;
   position: absolute;
   right: 10px;
   top: 0px;
   font-size: 2em;
+}
+
+.close-out:hover {
+  color: #FFFFFF;
 }
 
 .fill {
@@ -297,14 +312,18 @@ footer a:hover {
   color: rgba(0,0,0,.5);
   margin-bottom: 20px;
 }
-/*
+
 .comment-box {
-  height: 200px;
-  padding-top: 10px;
-}*/
+  margin-bottom: 30px;
+}
 
 #submit-button {
   padding: 10px  50px;
   background: gray;
   color: #FFFFFF;
+  text-decoration: none;
+}
+
+#submit-button:hover {
+  color: #000000;
 }

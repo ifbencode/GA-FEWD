@@ -12,6 +12,18 @@ $("#landing-page").on("click", function(){
   })
 // })
 
+var textBox = document.getElementById("form-name");
+    textBox.onfocus = function() {
+        textBox.select();
+
+        // Work around Chrome's little problem
+        textBox.onmouseup = function() {
+            // Prevent further mouseup intervention
+            textBox.onmouseup = null;
+            return false;
+        };
+    };
+
 var text = ["style.", "look.", "method.", "threads.", "you."];
 var counter = 0;
 var elem = document.getElementById("changeText");

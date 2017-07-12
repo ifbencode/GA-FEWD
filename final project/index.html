@@ -2,8 +2,10 @@
 <html lang="en-us">
   <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <link rel="stylesheet" type="text/css" href="./css/normalize.css">
+
     <title>What should I wear?</title>
   </head>
 
@@ -86,16 +88,18 @@
         <a class="contact-link" href="#">Contact</a>
       </footer>
 
-      <div id="contact-form">
-        <form>
-          <span class="form-copy">Need more info? Hit us up!</span><br>
-          <span class="close-out">&#215;</span><br>
-          <input class="fill" type="text" name="name" value="Name"><br>
-          <input class="fill"  type="text" name="email" value="Email"><br>
-          <input class="fill comment-box"  type="text" name="comments" value="Comments"><br>
-          <a id="submit-button" href="#">Submit</a>
-        </form>
-      </div>
+      <div id="form-container">
+        <div id="contact-form">
+          <form>
+            <span class="close-out">&#215;</span><br>
+            <span class="form-copy">Need more info? Hit us up!</span><br>
+            <input id="form-name" class="fill" type="text" name="name" value="Name"><br>
+            <input class="fill"  type="text" name="email" value="Email"><br>
+            <input class="fill comment-box"  type="text" name="comments" value="Comments"><br>
+            <a id="submit-button" href="#">Submit</a>
+          </form>
+        </div><!--contact-form-->
+      </div><!--form-container-->
 
 
     </div><!--container-->
